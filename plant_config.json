@@ -1,0 +1,24 @@
+{
+    "plants": [
+        {
+            "name": "coriander",
+            "valve": "solenoid-valve-1",
+            "water_level": "59s",
+            "pump": "pump-1"
+        }
+    ],
+    "valves": {
+        "solenoid-valve-1": "relay-1",
+        "solenoid-valve-2": "relay-2",
+        "solenoid-valve-3": "relay-3"
+    },
+    "pumps": {
+        "pump-1": "relay-4"
+    },
+    "relays": {
+        "relay-1": 10,
+        "relay-2": 11,
+        "relay-3": 12,
+        "relay-4": 13
+    }
+}
